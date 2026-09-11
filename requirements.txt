@@ -25,4 +25,4 @@ langchain-text-splitters==1.1.0
 
 langchain-huggingface
 sentence-transformers
-
+torchvision
