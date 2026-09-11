@@ -23,6 +23,8 @@ EMBEDDING_DIMENSIONS = 384
 LLM_MODEL = "openai/gpt-oss-120b"
 LLM_PROVIDER = "openai"
 LLM_BASE_URL = "https://api.groq.com/openai/v1"
+print("LLM API KEY LOADED:", bool(config.LLM_API_KEY))
+print("LLM BASE URL:", config.LLM_BASE_URL)
 LLM_API_KEY= os.getenv("GROQ_API_KEY")
 
 # Document Processing Configuration
